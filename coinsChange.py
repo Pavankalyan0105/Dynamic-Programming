@@ -34,3 +34,5 @@ def noofWays(coins , sum):
 coins = [2 , 3 ,5 ,10]
 sum = 7
 noofWays(coins , sum)
+
+# print([0]+[3]*5)
