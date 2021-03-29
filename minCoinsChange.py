@@ -1,3 +1,6 @@
+
+#function that gives the mimimum noof coins required
+
 def minCoins(coins , sum):
     rows = len(coins)
     cols = sum+1
