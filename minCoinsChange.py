@@ -28,6 +28,22 @@ def minCoins(coins , sum):
         print(i)
 
     print("Hence the minimum no:of coins required are  ::: " , table[rows-1][cols-1])
+
+
+    res_coins = []
+    i = rows-1
+    j = cols-1
+
+    while i>0 and j>0:
+
+        if (table[i][j] == table[i-1][j]):
+            i = i-1
+        else:
+            res_coins.append(coins[i])
+            j = j - coins[i]
+
+
+    print("And the coins are   " , res_coins)
     
 
 
